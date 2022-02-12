@@ -5,7 +5,7 @@ const Introduction = () => {
         <section className="intro-section p-5 bg-black text-white">
             <div className="row intro-row">
                 <div className="col-md-4">
-                    <div style={{ borderRadius: '50%', overflow: 'hidden' }}>
+                    <div style={{ borderRadius: '50%', overflow: 'hidden', border: '.4rem solid white' }}>
                         <Image src="/nft.jpeg" alt="me" width="100%" height="100%" layout="responsive" objectFit="contain" />
                     </div>
                 </div>

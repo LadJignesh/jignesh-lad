@@ -1,3 +1,5 @@
+// Bootstrap import
+import 'bootstrap/dist/css/bootstrap.css';
 import Layout from '../comps/Layout'
 import '../styles/globals.css'
 

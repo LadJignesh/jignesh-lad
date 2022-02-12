@@ -1,8 +1,8 @@
 import Image from 'next/image';
-import Link from 'next/link'
+import Link from 'next/link';
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-sm bg-dark sticky-top px-5">
+        <nav className="navbar navbar-expand-sm bg-black sticky-top px-5">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
                     <div style={{ borderRadius: '50%', overflow: 'hidden' }}>
@@ -24,7 +24,7 @@ const Navbar = () => {
                             <Link className="nav-link" href="#services">Services</Link>
                         </li>
                         <li className="nav-item px-2">
-                            <Link className="nav-link" href="#">Blog</Link>
+                            <Link className="nav-link" href="/documents/Jignesh_Lad_CV.pdf">Get My Resume</Link>
                         </li>
                     </ul>
                 </div>

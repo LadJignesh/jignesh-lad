@@ -1,9 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Footer from '../comps/Footer'
-import Navbar from '../comps/Navbar'
-import styles from '../styles/Home.module.css'
-import Link from 'next/link'
 import Introduction from '../comps/indexPage/Introduction'
 import Services from '../comps/indexPage/Services'
 import Projects from '../comps/indexPage/Projects'
@@ -13,8 +8,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Jignesh Lad | Home</title>
-        <meta name='keywords' content='ninjas'></meta>
+        <title>Jignesh Lad</title>
+        <meta name="title" content="Jignesh Lad Portfolio"></meta>
+        <meta name="description" content="Developer portfolio website displaying project and services that developer provide"></meta>
+        <meta name="keywords" content="developer, portfolio, services, projects, blockchain, web3, nft, fullStack"></meta>
+        <meta name="robots" content="index, nofollow"></meta>
+        <meta name="Content-Type" content="text/html; charset=utf-8"></meta>
+        <meta name="language" content="English"></meta>
+        <meta name="revisit-after" content="60 days"></meta>
+        <meta name="author" content="Jignesh Lad"></meta>
       </Head>
       <div>
         <Introduction />

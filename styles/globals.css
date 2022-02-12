@@ -132,6 +132,7 @@ a :hover { color: #eaeaea;}
 .intro-text{
   font-size: 2rem;
   padding: 20px;
+  text-align: justify;
 }
 
 i {

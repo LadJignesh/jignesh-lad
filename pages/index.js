@@ -3,6 +3,7 @@ import Introduction from '../comps/indexPage/Introduction'
 import Services from '../comps/indexPage/Services'
 import Projects from '../comps/indexPage/Projects'
 import Interests from '../comps/indexPage/Interests'
+import HireMe from '../comps/HireMe'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Interests />
         <Projects />
         <Services />
+        <HireMe />
       </div>
     </>
   )

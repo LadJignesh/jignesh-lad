@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 const Introduction = () => {
     return (
         <section className="intro-section p-5 bg-black text-white">
@@ -14,6 +15,7 @@ const Introduction = () => {
                     </p>
                     <p className="intro-text">He has 3+ years of programming experience and is currently learning WEB 3 development. He likes to read books, travel, exercise and meditate.</p>
                     <div className="social-icons">
+                        <strong style={{ paddingLeft: '1.2rem' }}><Link href="https://www.buymeacoffee.com/ladjignesh">Buy Me Coffee</Link> | Connect with me on </strong>
                         <i className="bi-github" role="img" aria-label="GitHub"></i>
                         <i className="bi-twitter" role="img" aria-label="Twitter"></i>
                         <i className="bi-linkedin" role="img" aria-label="Linkedin"></i>

@@ -103,7 +103,7 @@ a :hover { color: #eaeaea;}
 }
 
 .project-details{
-  text-align: justify;
+  text-align: left;
   font-size: 1.3rem;
 }
 
@@ -132,7 +132,7 @@ a :hover { color: #eaeaea;}
 .intro-text{
   font-size: 2rem;
   padding: 20px;
-  text-align: justify;
+  text-align: left;
 }
 
 i {
